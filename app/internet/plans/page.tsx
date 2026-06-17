@@ -174,9 +174,10 @@ export default function InternetPlansPage() {
               <CardHeader className="text-center pb-4 pt-12">
                 <CardTitle className="text-2xl font-bold">KISAN Package</CardTitle>
                 <div className="mt-4">
-                  <div className="text-4xl font-bold text-green-600">NPR 10,000</div>
+                  <div className="text-4xl font-bold text-green-600">NPR 8,000 <sup className="text-lg">*</sup></div>
                   {/* <div className="text-sm text-gray-500 line-through">NPR 10,000</div> */}
                   <div className="text-sm text-gray-600">per year</div>
+                  <div className="text-xs text-gray-500 mt-2 ">Excluding TCS and VAT</div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
