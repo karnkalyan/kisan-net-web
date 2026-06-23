@@ -241,14 +241,14 @@ export default function Home() {
             <div className="h-1 w-16 sm:w-20 bg-gradient-to-r from-green-400 to-emerald-300 mx-auto my-4 sm:my-6"></div>
 
             {/* Nepali Slogan */}
-            <motion.p
+            {/* <motion.p
               className="text-xl sm:text-2xl md:text-3xl font-bold text-green-200 mb-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
               ग्राहक पनि आफै, मालिक पनि आफै
-            </motion.p>
+            </motion.p> */}
 
             {/* Main Slogan */}
             <motion.p
